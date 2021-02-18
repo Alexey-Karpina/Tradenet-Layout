@@ -1,0 +1,99 @@
+.offer {
+  background-image: url('../../../images/offer-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 46px;
+  &__title {
+    text-transform: uppercase;
+    @include font-size(900, 22px);
+    line-height: 30px;
+    letter-spacing: -0.1em;
+    margin-bottom: 24px;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 58px;
+    }
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+
+  &__name {
+    color: $color-blue;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: -0.09em;
+    line-height: 26px;
+    margin-bottom: 23px;
+  }
+  &__about {
+    line-height: 24px;
+    letter-spacing: .03em;
+    & span {
+      font-weight: 900;
+    }
+    & div {
+      margin-bottom: 23px;
+      letter-spacing: 0.02em;
+    }
+    & p {
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+      &::before {
+        content: '\2022';
+      }
+    }
+  }
+}
+
+#education {
+  &::before {
+    display: block;
+    margin: auto;
+    @include pseudo(
+      '',
+      initial,
+      '../images/icons/icon-education.png',
+      80px,
+      80px
+    );
+    margin-bottom: 24px;
+  }
+}
+#account {
+  &::before {
+    display: block;
+    margin: auto;
+    @include pseudo(
+      '',
+      initial,
+      '../images/icons/icon-account.png',
+      80px,
+      80px
+    );
+    margin-bottom: 24px;
+  }
+}
+#academy {
+  &::before {
+    display: block;
+    margin: auto;
+    @include pseudo(
+      '',
+      initial,
+      '../images/icons/icon-academy.png',
+      80px,
+      80px
+    );
+    margin-bottom: 24px;
+  }
+}

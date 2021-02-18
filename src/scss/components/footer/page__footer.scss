@@ -1,0 +1,10 @@
+.footer {
+  background-color: $color-black;
+  &__info {
+    padding: 26px 0 31px;
+    letter-spacing: 0.029em;
+    @include font-size(400, 14px);
+    line-height: 20px;
+    color: $color-gray;
+  }
+}

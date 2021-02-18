@@ -1,0 +1,5 @@
+.main {
+  padding-top: 34px;
+  color: $color-black;
+  @include font-face('OpenSans-ExtraBold', 'OpenSans-ExtraBold', 800);
+}

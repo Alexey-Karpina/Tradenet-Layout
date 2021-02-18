@@ -1,0 +1,33 @@
+.start {
+  background-image: url('../images/start-bg.jpg');
+  @include bg(cover);
+  text-transform: uppercase;
+  line-height: 30px;
+  padding: 20px 10px;
+  &__title {
+    color: $color-white;
+    @include font-size(900, 22px);
+    letter-spacing: -0.09em;
+    margin-bottom: 24px;
+  }
+  &__button {
+    width: 100%;
+    position: relative;
+    line-height: 30px;
+    letter-spacing: -.03em;
+    @include font-size(900, 24px);
+    margin-bottom: 29px;
+    &::after {
+      @include pseudo(
+        '',
+        absolute,
+        '../images/mobile/arrow-right.png',
+        13px,
+        20px
+      );
+      right: 22px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

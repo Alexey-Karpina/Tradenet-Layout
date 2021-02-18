@@ -1,0 +1,16 @@
+@import './global/03-vars';
+@import './global/01-mixins';
+@import './global/normalize.scss';
+@import './global/04-global';
+
+@import './components/header/page__header.scss';
+@import './components/header/header__about.scss';
+@import './components/header/page__form.scss';
+@import './components/main/page__main.scss';
+@import './components/main/main__offer.scss';
+@import './components/main/main__start.scss';
+@import './components/footer/page__footer.scss';
+
+/* NOTE - import here your style modules */
+
+@import 'media';

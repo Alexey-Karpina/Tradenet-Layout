@@ -1,0 +1,200 @@
+//MEDIA: 1679
+@media screen and (max-width: 1679px) {
+}
+
+//!MEDIA: 1679
+
+//MEDIA: 1439
+@media screen and (max-width: 1439px) {
+}
+
+//!MEDIA: 1439
+
+//MEDIA: 1365
+@media screen and (max-width: 1365px) {
+}
+
+//!MEDIA: 1365
+
+//MEDIA: 1359
+@media screen and (max-width: 1359px) {
+}
+
+//!MEDIA: 1359
+
+//MEDIA: 1199
+@media screen and (max-width: 1199px) {
+}
+
+//!MEDIA: 1199
+
+//MEDIA: 1023
+@media screen and (min-width: 1049px) {
+  .wrapper,
+  .header__wrapper {
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .form {
+    flex: 0 0 420px;
+    padding: 60px 30px;
+    text-align: center;
+    & picture {
+      margin-bottom: 29px;
+    }
+    &__title {
+      @include font-size(700, 20px);
+      line-height: 23px;
+    }
+    &__subtitle {
+      margin-bottom: 1px;
+    }
+    &__trial {
+      flex: 0 0 380px;
+      margin-bottom: 32px;
+    }
+    &__submit {
+      @include font-size(900, 24px);
+      line-height: 28px;
+    }
+  }
+  .header {
+    text-align: left;
+    &__content {
+      flex: 0 0 510px;
+      align-items: flex-start;
+      padding-top: 50px;
+    }
+    &__title {
+      @include font-size(900, 60px);
+      line-height: 60px;
+      margin-bottom: 10px;
+    }
+    &__subtitle {
+      width: 100%;
+      height: 40px;
+      @include font-size(900, 30px);
+      line-height: 40px;
+      transform: translateX(-16px);
+      padding-left: 15px;
+      margin-bottom: 22px;
+    }
+    &__about {
+      margin-bottom: 25px;
+      @include font-size(900, 20px);
+      &-educated {
+        line-height: 26px;
+        letter-spacing: -0.11em;
+      }
+      &-traders {
+        color: $color-blue;
+        font-size: 30px;
+        letter-spacing: -0.09em;
+        line-height: 28px;
+        margin-bottom: 4px;
+      }
+      &-accounts {
+        font-size: 20px;
+        line-height: 23px;
+        letter-spacing: -0.14em;
+      }
+    }
+    &__info {
+      margin: 0;
+      width: 510px;
+      height: 318px;
+    }
+  }
+  .main {
+    padding-top: 56px;
+  }
+  .offer {
+    width: 100%;
+    margin-bottom: 86px;
+    &__title {
+      @include font-size(900, 30px);
+      line-height: 30px;
+      margin-bottom: 55px;
+    }
+    &__list {
+      margin: 0;
+      align-items: flex-start;
+    }
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex: 0 0 270px;
+      &:not(:last-child) {
+        margin: 0;
+      }
+    }
+    &__name {
+      letter-spacing: -0.14em;
+    }
+  }
+  #account {
+    flex: 0 0 330px;
+  }
+  .start {
+    padding: 55px 0 0 0;
+    &__title {
+      @include font-size(900, 30px);
+      line-height: 30px;
+    }
+    &__button {
+      height: 100px;
+      width: 510px;
+      letter-spacing: -0.07em;
+      margin-bottom: 60px;
+      @include font-size(900, 36px);
+      line-height: 30px;
+      &::after {
+        @include pseudo(
+          "",
+          absolute,
+          "../images/icons/arrow-right.png",
+          19px,
+          30px
+        );
+        right: 40px;
+      }
+    }
+  }
+  .footer__info {
+    padding: 40px 0 0 90px;
+    margin-bottom: 73px;
+    text-indent: 20px;
+    & p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+//!MEDIA: 1023
+
+//MEDIA: 991
+@media screen and (max-width: 991px) {
+}
+
+//!MEDIA: 991
+
+//MEDIA: 767
+@media screen and (max-width: 767px) {
+}
+
+//!MEDIA: 767
+
+//MEDIA: 639
+@media screen and (max-width: 639px) {
+}
+
+//!MEDIA: 639
+
+//MEDIA: 369
+@media screen and (max-width: 369px) {
+}
+
+//!MEDIA: 369

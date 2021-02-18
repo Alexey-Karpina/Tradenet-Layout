@@ -1,0 +1,6 @@
+.page__header {
+  color: $color-black;
+  text-transform: uppercase;
+  background-image: url('../../../images/header-bg.jpg');
+  @include bg("cover");
+}
